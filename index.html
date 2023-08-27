@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./svg-inject.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img class="js-img" src="./assets/wesley.jpg" alt="profile" />
+        <p>@wesleycsv</p>
+      </div>
+      <div class="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/wesleycsv/"
+              onload="SVGInject(this)"
+              ><img src="./assets/linkedin.svg" alt="" /> Linkedin</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/wesleycsv/"
+              onload="SVGInject(this)"
+              ><img src="./assets/instagram.svg" alt="" /> Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/wesleycsv"
+              onload="SVGInject(this)"
+              ><img src="./assets/github.svg" alt="" />gitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="socialMidea">
+        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+      <footer>Feito com ♥ por <a href="#">Wesley Cunha</a></footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
